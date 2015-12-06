@@ -171,8 +171,19 @@
     padding: $spacing-unit 0;
 }
 
-.page-heading {
-    font-size: 20px;
+.page-header {
+    margin-bottom: 0;
+}
+
+.page-title {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+    margin-bottom: 0;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
 }
 
 .post-list {
