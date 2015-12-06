@@ -190,7 +190,9 @@
     list-style: none;
 
     > li {
-        margin-bottom: $spacing-unit;
+        &:not(:last-child) {
+            margin-bottom: $spacing-unit;
+        }
     }
 }
 
