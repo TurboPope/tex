@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Songs im Programm
+title: Songs
 permalink: /songs/
 ---
 
@@ -31,4 +31,4 @@ permalink: /songs/
 * After Dark - Tito & Tarantula
 * Red House - Jimi Hendrix
 
-Die Liste ist wahrscheinlich nicht up-to-date.
+*Stand {{ page.last_modified_at | date: '%d.%m.%Y' }}.*
