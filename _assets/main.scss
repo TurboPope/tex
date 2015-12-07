@@ -42,9 +42,12 @@ $on-laptop:        800px;
 
 
 
-@import "base";
-@import "layout";
-@import "syntax-highlighting";
-@import "tex";
-@import "font-awesome-sprockets";
-@import "font-awesome";
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting",
+        "tex",
+        "font-awesome-sprockets",
+        "font-awesome"
+;

@@ -10,10 +10,6 @@ gems:
   - jekyll-last-modified-at
   - jekyll-assets
   - font-awesome-sass
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - readme.md
 
 assets:
   sources:
