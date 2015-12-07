@@ -1,6 +1,3 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
 @charset "utf-8";
 
 
@@ -50,5 +47,7 @@ $on-laptop:        800px;
         "base",
         "layout",
         "syntax-highlighting",
-        "tex"
+        "tex",
+        "font-awesome-sprockets",
+        "font-awesome"
 ;
