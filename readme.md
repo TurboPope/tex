@@ -2,5 +2,4 @@
 Jekyll 3.0 based website for Turtle Express.
 
 ## Dependencies
-* Jekyll >= 3.0
-* jekyll-last-modified-at
+See Gemfile for dependencies or use Bundler.
