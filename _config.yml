@@ -8,11 +8,6 @@ url: "http://localhost:4000" # the base hostname & protocol for your site
 github: turbopope/tex
 gems:
   - jekyll-last-modified-at
-  - jekyll-assets
-assets:
-  sources:
-    - _assets
-    - _assets/scss
 
 # Build settings
 markdown: kramdown
